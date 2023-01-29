@@ -8,22 +8,46 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="Assets/style.css" />
-    <title>Wether Dashboard</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Weather Dashboard</title>
   </head>
 
-  <div class="container">
-
-  </div>
 
   <body>
 
-    <header class="jumbotron text-center">
-        <h1>Wether Dashboard</h1>
+    <header class="text-center">
+        <h1>Weather Dashboard</h1>
     </header>
 
+        <div class="row">
+            <div class="col-sm-4 searchBar">
+            <input type="text" placeholder="Search.."></input>
+            <button>Search</button>
+            </div>
+            
+            <div class="col-sm-8 current-weather">
+              <h2>PLACE DATE</h2>
+                <div>
+                    <p id="temp">Temp:</p>
+                    <p id="wind">Wind:</p>
+                    <p id="humidity">Humidity:</p>
+                    <p id="uv-index">UV Index:</p>
+                </div>
+            </div>
+        </div>
+  <div>
+    <h2>5 Day Forecast</h2>
+    <div class="row">
+      <card>
+        <h3 class="five-date">date</h3>
+        <p class="five-temp">temp:</p>
+        <p class="five-wind">wind:</p>
+        <p class="five-humidity">humidity:</p>
+      </card>
+    </div>
+  </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script> -->
-  <script src = "./assets/script.js"></script>
+  <script src = "./script.js"></script>
 </body>
 </html>
