@@ -1,0 +1,8 @@
+
+
+
+var currentWeather = function (city) {
+
+    
+}
+
