@@ -21,23 +21,25 @@
     <div class="row" id="container">
         <div class="col-m-4">
             <div class="searchBar">
-            <input id="search-input" type="text" placeholder="Search.."></input>
+            <input id="search-input" type="text" list="searchdata" placeholder="Search.."></input>
             <button id="submit-search">Search</button>
+            <ul id="searchdata"></ul>
             </div>
-            <li></li>
-            <li></li>
         </div>
-            <div class="col-m-8" id="current-weather">
+            <div class="col-9">
+              <div id="current-weather">
               <h2 id="city-date">Current Weather Forecast</h2>
                 <div>
                     <p id="temp">Temperature:</p>
                     <p id="wind">Wind:</p>
                     <p id="humidity">Humidity:</p>
                 </div>
-                <div class="col-m-8" id="five-forecast">
+              </div>
+                <div class="col-m-8">
+                  <div id="five-forecast">
                   <h2>5 Day Forecast</h2>
-                  <div id="five-day">
-                    <div class="col-sm-3 mb-3 mb-sm-0">
+                  <div class="card-deck" id="five-day">
+                    <div class="col-3 mb-3 mb-0">
                       <div class="card row">
                         <div class="card-body">
                           <h5 class="card-title">Five-Day Forecast</h5>
@@ -45,6 +47,7 @@
                           <p class="five-temp">Temperature:</p>
                           <p class="five-wind">Wind:</p>
                           <p class="five-humidity">Humidity:</p>
+                        </div>
                         </div>
                       </div>
                     </div>

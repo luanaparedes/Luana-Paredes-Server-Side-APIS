@@ -10,7 +10,6 @@ header {
 };
 
 .current-weather {
-    display: block;
     margin: 10px;
     margin-left: 200px;
     outline: #1434A4;
@@ -18,5 +17,15 @@ header {
 
 #container {
     margin: 20px;
-    background-color: aqua;
+}
+
+#current-weather {
+    padding: 15px;
+    background-color: gray;
+    outline: auto;
+}
+
+.card {
+    outline: auto;
+    background-color: lightgrey;
 }
