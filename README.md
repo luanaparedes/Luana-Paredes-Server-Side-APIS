@@ -6,14 +6,17 @@ Users can search any city and get the forecasts for the current temperature, win
 
 ## Installation
 
-To open the Weather Dashboard app click THIS LINK!
+To open the Weather Dashboard app click this link: 
+https://luanaparedes.github.io/Luana-Paredes-Server-Side-APIS/
 
 ## Usage 
 
 Upon opening the app users can search and see the current forecast and a forecast for the next 5 days.
 
-ADD PICTURE
+![webpage image](./images/screencapture.png)
 
 ## Credits
 
-ADD LINKS
+https://getbootstrap.com/docs/4.0/layout/grid/
+https://getbootstrap.com/
+https://getbootstrap.com/docs/5.3/components/card/#about
